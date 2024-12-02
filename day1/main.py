@@ -1,7 +1,7 @@
 left = []
 right = []
 
-with open("../adventofcode2024/input.txt") as file:
+with open("input.txt") as file:
     for line in file:
         new_list = line.split()
         left.append(new_list[0])
